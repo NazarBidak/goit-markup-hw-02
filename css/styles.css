@@ -70,10 +70,10 @@ body {
 }
 
 .header-address {
+  font-style: normal;
 }
 
 .header-email {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -85,7 +85,6 @@ body {
 }
 
 .header-number {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -109,7 +108,7 @@ body {
 }
 
 .hero-btn {
-  font-family: 'Roboto' sans-serif;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -119,6 +118,12 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  background-color: #4d5ae5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }
 
 /* -------------------FEATURES------------------- */
@@ -175,6 +180,7 @@ body {
   color: #2e2f42;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-item {
 }
@@ -199,7 +205,7 @@ body {
   background-color: #2e2f42;
 }
 .footer-link {
-  font-family: 'Raleway';
+  font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
