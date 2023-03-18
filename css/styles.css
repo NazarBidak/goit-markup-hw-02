@@ -1,5 +1,12 @@
+:root {
+  --main-background-color: #ffffff;
+  --second-color: #4d5ae5;
+  --logo-color: #2e2f42;
+}
 body {
   font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: var(--main-background-color);
 }
 
 .list {
@@ -27,7 +34,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--second-color);
 }
 
 .header-logotype {
@@ -40,7 +47,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--logo-color);
 }
 
 .header-list {
@@ -201,7 +208,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
 .footer-logo {
@@ -214,7 +221,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .footer-text {
