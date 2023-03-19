@@ -73,22 +73,15 @@ body {
   font-style: normal;
 }
 
-.header-email {
+.header-contacts {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-email:hover,
-.header-email:focus {
+.header-contacts:hover,
+.header-contacts:focus {
   color: #404bbf;
-}
-
-.header-number {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /* -------------------HERO------------------- */
